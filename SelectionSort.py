@@ -6,6 +6,6 @@ def Selectionsort(arr) :
                 min_index= example_j
         arr[example_i], arr[min_index] = arr[min_index], arr[example_i]
 
-arr_i=[1,24,66,2,4]
+arr_i=[1,24,66,2,4,98,9]
 Selectionsort(arr_i)
 print(arr_i)
